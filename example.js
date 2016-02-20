@@ -35,8 +35,20 @@ class MyTable extends React.Component {
           )}
           width={200}
         />
-      </Table>,
-      document.getElementById('container')
+      </Table>
     );
   }
 }
+
+myTableData: [
+  {name: 'Rylan'},
+  {name: 'Amelia'},
+  {name: 'Estevan'},
+  {name: 'Florence'},
+  {name: 'Tressa'},
+];
+
+ReactDOM.render(
+  <FilterableProductTable data={myTableData} />,
+  document.getElementById('container')
+);
