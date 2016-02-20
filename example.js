@@ -3,7 +3,7 @@ import ReachDOM from 'react-dom';
 import {Table, Column, Cell} from 'fixed-data-table';
 
 //Sample Table Data --> will need to be changed later
-const rows = [ [const rows = [
+const rows = [
   ['a1', 'b1', 'c1'],
   ['a2', 'b2', 'c2'],
   ['a3', 'b3', 'c3'],
