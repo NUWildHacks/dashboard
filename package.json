@@ -18,6 +18,7 @@
   "homepage": "https://github.com/NUWildHacks/dashboard#readme",
   "dependencies": {
     "fixed-data-table": "^0.6.0",
+    "node-env-file": "^0.1.8",
     "react": "^0.14.7",
     "react-dom": "^0.14.7"
   }
