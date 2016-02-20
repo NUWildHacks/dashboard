@@ -1,0 +1,24 @@
+{
+  "name": "dashboard",
+  "version": "1.0.0",
+  "description": "The dashboard for Wildhacks applications",
+  "main": "example.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NUWildHacks/dashboard.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NUWildHacks/dashboard/issues"
+  },
+  "homepage": "https://github.com/NUWildHacks/dashboard#readme",
+  "dependencies": {
+    "fixed-data-table": "^0.6.0",
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7"
+  }
+}
