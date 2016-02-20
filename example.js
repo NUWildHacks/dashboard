@@ -3,7 +3,7 @@ import ReachDOM from 'react-dom';
 import {Table, Column, Cell} from 'fixed-data-table';
 
 //Sample Table Data --> will need to be changed later
-class MyTable extends React.Component {
+class myTable extends React.Component {
   constructor(props) {
     super(props);
 
@@ -40,15 +40,15 @@ class MyTable extends React.Component {
   }
 }
 
-myTableData: [
-  {name: 'Rylan'},
-  {name: 'Amelia'},
-  {name: 'Estevan'},
-  {name: 'Florence'},
-  {name: 'Tressa'},
-];
+// myTableData: [
+//   {name: 'Rylan'},
+//   {name: 'Amelia'},
+//   {name: 'Estevan'},
+//   {name: 'Florence'},
+//   {name: 'Tressa'},
+// ];
 
 ReactDOM.render(
-  <FilterableProductTable data={myTableData} />,
+  <myTable data={myTableData} />,
   document.getElementById('container')
 );
